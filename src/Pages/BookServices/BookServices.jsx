@@ -29,7 +29,7 @@ const BookServices = () => {
 
         //send data to server
 
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://localhost:5000/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
