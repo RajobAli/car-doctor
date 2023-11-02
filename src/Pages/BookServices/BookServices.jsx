@@ -12,7 +12,7 @@ const BookServices = () => {
         const form = event.target;
         const name = form.name.value;
         const date = form.date.value;
-        const price = user?.price;
+        const price = form.price.value;
         const email = user?.email;
 
 
@@ -76,7 +76,7 @@ const BookServices = () => {
                         <label className="label">
                             <span className="label-text">Due Amount</span>
                         </label>
-                        <input type="text" name="price" defaultValue={'$' + price} placeholder="password" className="input input-bordered" required />
+                        <input type="text" name="price" defaultValue={price} placeholder="password" className="input input-bordered" required />
 
                     </div>
                 </div>

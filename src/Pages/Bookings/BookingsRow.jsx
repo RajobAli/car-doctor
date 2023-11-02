@@ -4,6 +4,9 @@ const BookingsRow = ({ booking, handleDelete,handleBookingConfirm }) => {
     const { _id, date, service, price, img ,status} = booking;
 
 
+    // client site link : https://car-doctors-6f39b.web.app/
+
+
     return (
         <tr>
             <th>
